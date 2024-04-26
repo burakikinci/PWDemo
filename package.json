@@ -1,21 +1,13 @@
 {
-  "name": "playwrightjenkins",
+  "name": "playwright-jenkins",
   "version": "1.0.0",
-  "description": "Running playwright on Jenkins",
+  "description": "",
   "main": "index.js",
   "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/polutekape/PlaywrightJenkins.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/polutekape/PlaywrightJenkins/issues"
-  },
-  "homepage": "https://github.com/polutekape/PlaywrightJenkins#readme",
   "devDependencies": {
-    "@playwright/test": "^1.25.2"
+    "@playwright/test": "^1.33.0"
   }
 }
