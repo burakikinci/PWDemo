@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Install Playwright and its Browsers') {
             steps {
-                bat 'npx playwright test'
+                bat 'npm install --save-dev playwright'
             }
         }
         stage('Run Tests') {
