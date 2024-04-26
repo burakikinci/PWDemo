@@ -14,7 +14,9 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 bat 'npm install'
-                bat 'npx playwright install'
+                bat 'npx playwright install webkit'
+                bat 'npx playwright install chromium'
+                bat 'npx playwright install firefox'
             }
         }
         stage('Install Playwright and its Browsers') {
